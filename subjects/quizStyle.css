@@ -21,11 +21,11 @@ body {
   width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #FA4B37;
+  background: #b47a74;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #DF2771; 
+  background: #946478; 
 }
 
 /*NAVIGATION BAR*/
@@ -37,7 +37,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 2%;
+	padding: 0px 2%;
 	position: fixed;
 	top: 0px;
 	z-index: 10;
@@ -77,13 +77,13 @@ body {
 
 .nav ul li a:hover
 {
-	color: #FA4B37;
+	color: #b47a74;
 }
 
 .nav button
 {
 	padding: 9px 25px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #b47a74, #946478);
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -113,7 +113,7 @@ body {
 	width: 300px;
 	border: none;
 	outline: none;
-	border-bottom: 2px solid #FA4B37;
+	border-bottom: 2px solid #b47a74;
 	padding: 9px;
 }
 
@@ -163,7 +163,7 @@ body {
 	border: none;
 	border-radius: 5px;
 	color: #fff;
-	background: #DF2771;
+	background: #946478;
 	outline: none;
 	cursor: pointer;
 	box-shadow: 0 0 50px rgba(0,0,0,0.5);
@@ -203,7 +203,7 @@ body {
 .left-side li {
 	list-style-type: none;
 	cursor: pointer;
-	color: #FA4B37;
+	color: #b47a74;
 	font-weight: 700;
 	font-size: 1.2em;
 	margin-bottom: 20px;
@@ -227,9 +227,10 @@ body {
 	border: none;
 }
 .main-frame {
-	background: url(../images/extra/quiz.jpg);
-	background-size: cover;
-	background-position: center;
+    background: url(../images/extra/quiz.png);
+    background-size: 1920px 650px;   /* fixed size */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .main-frame p {
 	font-size: 5em;

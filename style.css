@@ -32,35 +32,42 @@ header {
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 nav {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	top: 0;
-	position: fixed;
-	display: flex;
-	width: 100%;
-	z-index: 1000;
-	background: #dbcfcb;
-	justify-content: space-around;
-	transition: 1.5s;
-	align-items: center;
+    height: 90px; /* set fixed, small height */
+    padding: 0 20px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 1000;
+    background: #dbcfcb;
+    justify-content: space-between;
+    align-items: center;
 }
+
 nav ul {
-	display: flex;
-	align-items: center;
-	margin-left: 500px;
+    display: flex;
+    align-items: center;
 }
+
 nav ul li {
-	list-style: none;
-	margin: 5px 10px;
+    list-style: none;
+    margin: 0 10px;
 }
+
 nav ul li a {
-	padding: 5px 10px;
-	color: #2e2e2e;
-	cursor: pointer;
-	transition: .5s;
-	text-decoration: none;
-	font-size: 17px;
+    padding: 5px 10px;
+    color: #2e2e2e;
+    transition: .5s;
+    text-decoration: none;
+    font-size: 16px;
 }
+
+.logo img {
+    width: 90px; /* smaller logo */
+	cursor: pointer;
+	transition: all 1s;
+}
+
 nav ul li a:hover {
 	color: #ffffff;
 	border-radius: 5px;
@@ -93,7 +100,8 @@ nav ul li a:hover {
 }*/
 
 .get-started {
-	margin-left: 50px;
+	margin-left: 40px;
+	margin-right:25px;
 	padding: 9px 20px;
 	border: 2px solid #946478;
 	border-radius: 20px;
@@ -107,11 +115,7 @@ nav ul li a:hover {
 	color: #2e2e2e;
 	background: #fff;
 }
-.logo img{
-	width: 120px;
-	cursor: pointer;
-	transition: all 1s;
-}
+
 
 a, button {
 	float: left;
