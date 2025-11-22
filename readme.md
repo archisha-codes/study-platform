@@ -3,6 +3,8 @@
 
 A modern, organized, and student-friendly academic learning platform providing **subject-wise notes, videos, quizzes, and exam-oriented content** in one place.
 
+**CHECK IT OUT AT:**
+ https://archisha-codes.github.io/study-platform/
 
 ## 🚀 **About the Project**
 
